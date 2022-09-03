@@ -1,2 +1,3 @@
 echo '#!/bin/bash' >0-iam_betty 
 echo 'sudo -u betty' >>0-iam_betty 
+chmod +x 0-iam_betty
