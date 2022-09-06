@@ -1,0 +1,6 @@
+decimal=123
+binary=$(([##2]decimal))
+hex=$(([##16]decimal))
+hex=$(([##16]2#$binary))
+decimal=$((2#$binary))
+echo "$((2#$BINARY))"
