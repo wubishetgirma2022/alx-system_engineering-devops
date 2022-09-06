@@ -1,0 +1,3 @@
+echo $(($expression))/ (($expression))
+
+echo $(($POWER / $DIVIDE))
