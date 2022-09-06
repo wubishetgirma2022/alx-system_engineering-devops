@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{ print; print "*Some_text"; }' input_file
+awk '{ print; print "*Some_text" }' input_file
