@@ -1,0 +1,4 @@
+echo $((0xbc))
+hex=dead
+dec=$((0x$hex))
+echo $dec
