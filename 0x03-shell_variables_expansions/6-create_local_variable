@@ -1,5 +1,2 @@
 #!/bin/bash
-create_BEST(){
-   d=School 
-   echo "create_BEST(): d is set to $d"
-}
+BETTY="Holberton"
