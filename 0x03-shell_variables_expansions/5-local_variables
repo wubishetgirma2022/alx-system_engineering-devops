@@ -1,5 +1,2 @@
-#show all variable
-printenv
-
-#result one variable
-echo $LOCALAPPDATA
+#!/bin/bash
+set
