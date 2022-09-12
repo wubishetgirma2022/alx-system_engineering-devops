@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #!/bin/bash
 export PATH=$PATH:/action
 =======
@@ -8,3 +9,7 @@ export PATH="$HOME/bin:$PATH"
 =======
 export PATH="$HOME/bin:$PATH"
 >>>>>>> f43c366c81fcc6010a2a06fa4f763cae034f299e
+=======
+#!/bin/bash
+export PATH=$PATH:/action
+>>>>>>> parent of af838d9 (correction)
