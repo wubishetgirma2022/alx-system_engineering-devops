@@ -1,6 +1,5 @@
-# make the limit higer
-exec { 'file limit':
-  onlyif   => 'test -e /etc/default/nginx',
-  command  => 'sed -i "5s/[0-9]\+/$( ulimit -n )/" /etc/default/nginx; service nginx restart',
-  provider => shell,
+# Fix Nginx limits
+exec { 'Limit':
+  command => '/usr/bin/env sed -i s/15/2000/ /etc/default/nginx',
 }
+exec { '/usr/bin/env service nginx restart': }
